@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    background-image:linear-gradient(lightyellow, lightpink) ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.logo{
+    position: absolute;
+    top:35px;
+    width: 70px;
+    height: 80px;
+    left: 20px;
+}
+
+
+nav {
+    padding:30px;
+    margin:5px ;
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav-link {
+    font-size: 24px;
+    color:black;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: lighter;
+    
+}
+
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 45px;
+   
+}
+
+
+footer{
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 40px;
+   
+}
+
+footer:hover{
+    font-weight: lighter;
+    font-size: 25px;
+    background-color: lightyellow;
+    border-radius: 15px;
+    padding:20px;
+    transition: all 1.5s linear;
+}
+
+a:hover{
+    padding:10px;
+    background-color: lightpink;
+    border-radius: 5px;
+    font-size: 25px;
+    transition: all 1s linear;
+}
+
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.under{
+    font-weight: lighter;
+    font-size: 17px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+td{
+    border-collapse: collapse;
+    border: 3px solid black;
+    padding: 20px; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+   
+
+}
+
+
+.tab{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    margin-top:50px ;
+}
+
+
